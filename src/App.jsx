@@ -18,7 +18,7 @@ function App() {
 
       {/* Floating Button */}
       <button
-        className="fixed bottom-6 right-6s bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 transition"
+        className="fixed bottom-6 hover:cursor-pointer right-6s bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700 transition"
         onClick={() => setIsModalOpen(true)}
       >
         Create New Avatar

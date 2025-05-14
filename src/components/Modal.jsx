@@ -14,7 +14,7 @@ export default function Modal({ onClose }) {
                     type="file"
                     className="w-full mb-4"
                 />
-                <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition w-full">
+                <button className="bg-blue-600 hover:cursor-pointer text-white px-4 py-2 rounded hover:bg-blue-700 transition w-full">
                     Save
                 </button>
                 <button
